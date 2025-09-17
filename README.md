@@ -7,7 +7,7 @@
 A modern, interactive **Age Calculator** built with **HTML, CSS, and JavaScript**.  
 It not only calculates your age but also provides **next birthday countdown, total days lived, hours lived, zodiac sign, and the weekday you were born on**.  
 
-🔗 **Live Demo**: [View on GitHub Pages](https://yourusername.github.io/age-calculator/)  
+🔗 **Live Demo**: [View on GitHub Pages](https://14bharanid.github.io/age-calculator/)  
 
 ---
 
@@ -36,11 +36,10 @@ It not only calculates your age but also provides **next birthday countdown, tot
 ## 📸 Screenshots  
 
 ### 🔹 Home Page  
-![Screenshot](<img width="1907" height="912" alt="image" src="https://github.com/user-attachments/assets/6efecc32-b5d5-4cc6-9abc-976f7a9eede8" />)  
+![Screenshot](images/screenshot1.png)
 
 ### 🔹 Age Details Display  
-![Screenshot](<img width="1906" height="894" alt="image" src="https://github.com/user-attachments/assets/66ba0a0f-8acc-42ee-b699-ffaa9c8138a3" />
-)  
+![Screenshot](images/screenshot2.png)  
 
 ---
 
