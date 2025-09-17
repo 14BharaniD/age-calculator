@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Advanced Age Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Age Calculator</h1>
+
+    <div class="form-group">
+      <label for="day">Day:</label>
+      <input type="number" id="day" min="1" max="31" placeholder="DD">
+    </div>
+    <div class="form-group">
+      <label for="month">Month:</label>
+      <input type="number" id="month" min="1" max="12" placeholder="MM">
+    </div>
+    <div class="form-group">
+      <label for="year">Year:</label>
+      <input type="number" id="year" placeholder="YYYY">
+    </div>
+
+    <div class="btn-group">
+      <button id="calculateBtn">Calculate Age</button>
+      <button id="resetBtn" class="reset">Reset</button>
+    </div>
+
+    <p id="error" class="error"></p>
+
+    <!-- Hidden initially -->
+    <div id="result" class="card">
+      <h2>Age Details</h2>
+      <p><strong>Age:</strong> <span id="years">--</span> years,
+         <span id="months">--</span> months,
+         <span id="days">--</span> days</p>
+
+      <p><strong>Next Birthday In:</strong> <span id="nextBirthday">--</span></p>
+      <p><strong>Total Days Lived:</strong> <span id="totalDays">--</span></p>
+      <p><strong>Total Hours Lived:</strong> <span id="totalHours">--</span></p>
+      <p><strong>Born on:</strong> <span id="dayOfWeek">--</span></p>
+      <p><strong>Zodiac Sign:</strong> <span id="zodiac">--</span></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
